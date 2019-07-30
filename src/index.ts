@@ -98,5 +98,5 @@ export class NgbRootModule {
 
 @NgModule({imports: NGB_MODULES, exports: NGB_MODULES})
 export class NgbModule {
-  static forRoot(): ModuleWithProviders { return {ngModule: NgbModule}; }
+  static forRoot(): ModuleWithProviders { return {ngModule: NgbRootModule}; }
 }

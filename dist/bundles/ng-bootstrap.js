@@ -6848,13 +6848,11 @@ exports.NgbRootModule = NgbRootModule;
 var NgbModule = (function () {
     function NgbModule() {
     }
-    NgbModule_1 = NgbModule;
-    NgbModule.forRoot = function () { return { ngModule: NgbModule_1 }; };
-    NgbModule = NgbModule_1 = __decorate([
+    NgbModule.forRoot = function () { return { ngModule: NgbRootModule }; };
+    NgbModule = __decorate([
         core_1.NgModule({ imports: NGB_MODULES, exports: NGB_MODULES })
     ], NgbModule);
     return NgbModule;
-    var NgbModule_1;
 }());
 exports.NgbModule = NgbModule;
 //# sourceMappingURL=index.js.map

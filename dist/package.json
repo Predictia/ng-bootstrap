@@ -36,9 +36,5 @@
   "main": "bundles/ng-bootstrap.js",
   "module": "index.js",
   "typings": "index.d.ts",
-  "peerDependencies": {
-    "@angular/common": "^5.0.2",
-    "@angular/core": "^5.0.2",
-    "@angular/forms": "^5.0.2"
-  }
+  "peerDependencies": {}
 }
