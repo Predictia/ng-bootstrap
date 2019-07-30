@@ -59,7 +59,7 @@ export { NgbRootModule };
 var NgbModule = (function () {
     function NgbModule() {
     }
-    NgbModule.forRoot = function () { return { ngModule: NgbRootModule }; };
+    NgbModule.forRoot = function () { return { ngModule: NgbModule }; };
     NgbModule.decorators = [
         { type: NgModule, args: [{ imports: NGB_MODULES, exports: NGB_MODULES },] },
     ];
